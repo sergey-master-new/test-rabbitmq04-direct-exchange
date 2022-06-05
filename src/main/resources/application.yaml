@@ -1,0 +1,18 @@
+server:
+  port: 8081
+spring:
+  rabbitmq:
+    host: localhost
+    password: guest
+    username: guest
+    virtual-host: /
+    listener:
+      simple:
+        default-requeue-rejected: false
+
+
+
+
+
+
+
